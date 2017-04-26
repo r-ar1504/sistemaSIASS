@@ -1,3 +1,5 @@
 com\sistemaSIASS\config\WebApplicationContextConfig.class
 com\sistemaSIASS\config\DispatcherServletInitializer.class
+com\sistemaSIASS\controller\AlumnoController.class
 com\sistemaSIASS\controller\HomeController.class
+com\sistemaSIASS\domain\Alumno.class
