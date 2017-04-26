@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 12.5%;
+	/*background-color: rgb(16, 6, 159); /* Azul Tec */
+	background-color: rgb(0,0,0); /* Azul Tec */
+}
+
+section p{
+	width: auto;
+	margin: 1.5% 2.5%;
+	float: left;
+	display: inline-block;
+	font-size: 1.2em;
+}
+
+section p b {
+	float: left;
+	display: inline-block;
+	font-size: 1em;
+}
+
+#logoTec {
+	width: 20%;
+	margin-top: -.3%;
+}
+
+#personalInfo {
+	width: 25%;
+	margin: 1.5% 2% 0 0;
+	float: right;
+	font-size: .5em;
+	text-align: right;
+}
+
+#personalText {
+	width: 65%;
+	float: left;
+	margin-top: 1%;
+}
+
+#personalImg {
+	width: 22.5%;
+	margin-top: -3.5%;
+	margin-right: 5%;
+	padding: 0;
+	float: right;
+}
+
+#personalInfo p {
+	color: white;
+}
+
+#personalInfo img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+
+#leftPanel {
+	height: 87.5%;
+	float: left;
+	overflow: hidden;
+}
+
+.leftPanelSec {
+	width: 100%;
+	height: 33.33%;
+	text-align: center;
+	border-left: 3.5px solid black;
+	border-top:0;
+	border-right:3.5px solid black;
+	border-bottom:3.5px solid black;
+	border-collapse: collapse;
+}
+
+.leftPanelSec h3 {
+	padding-top: 10%;
+	font-size: 1.5em;
+}
+
+.leftPanelSec h1 {
+	margin-top: 7.5%;
+	font-size: 7em;
+}
+
+.hidden {
+	width: 0;
+	transition: 1s;
+}
+
+.unhidden {
+	width: 20%;
+	transition: 1s;
+}
+
+#horasSS {
+	background-color: rgba(0, 204, 0, .5); /* Green */
+}
+
+#horasSP {
+	background-color: rgba(255, 0, 0, .5); /* Red */
+}
+
+#statusRec {
+	background-color: rgba(160, 160, 160, .5); /* Gray */
+}
+
+#statusRec h1{
+	margin-top: 10%;
+	font-size: 4em;
+}
+
+#verticalHideBtn {
+	width: 3%;
+	height: 5%;
+	padding-top: .8%;
+	text-align: center;
+	cursor: pointer;
+	top: 53%;
+	left: 17.3%;
+	position: absolute;
+	z-index: 10;
+}
+
+#verticalHideBtn p {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-size: 2em;
+}
+
+#content {
+	width: 80%;
+	height: 87.5%;
+	float: right;
+	position: relative;
+}
+
+#opcionesTaller{
+	width: 100%;
+	height: 31%;
+	float: right;
+	background-color: white;
+	overflow: scroll;
+}
+
+#opcionesCiudadano {
+	width: 100%;
+	height: 31%;
+	float: right;
+	background-color: white;
+	overflow: scroll;
+}
+
+#opcionesProfesional {
+	width: 100%;
+	height: 31%;
+	float: right;
+	background-color: white;
+	overflow: scroll;
+}
+
+.titleBar {
+	width: 100%;
+	height: 10%;
+	background-color: gray;
+	text-align: center;
+	box-shadow: 
+		0 1px 2px #fff, /*bottom external highlight*/
+		0 -1px 1px #666, /*top external shadow*/ 
+		inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ 
+		inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+	cursor: pointer;
+}
+
+.titleBar p {
+	font-size: 1em;
+	width: 100%;
+	padding: 0;
+	margin: .3%;
+}
+
+.titleBar p b {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
