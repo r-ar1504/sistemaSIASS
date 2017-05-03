@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.sistemaSIASS")
+@ComponentScan("com.sistemaSIASS.controller")
 public class WebApplicationContextConfig extends WebMvcConfigurerAdapter {
 
 	@Override

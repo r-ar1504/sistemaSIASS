@@ -1,3 +1,10 @@
+com\sistemaSIASS\domain\repository\impl\InMemoryAlumnoRepository$AlumnoMapper.class
 com\sistemaSIASS\config\WebApplicationContextConfig.class
 com\sistemaSIASS\config\DispatcherServletInitializer.class
+com\sistemaSIASS\config\RootApplicationContextConfig.class
+com\sistemaSIASS\domain\repository\impl\InMemoryAlumnoRepository$1.class
+com\sistemaSIASS\domain\Alumno.class
+com\sistemaSIASS\domain\repository\impl\InMemoryAlumnoRepository.class
+com\sistemaSIASS\domain\repository\AlumnoRepository.class
+com\sistemaSIASS\controller\AlumnoController.class
 com\sistemaSIASS\controller\HomeController.class
